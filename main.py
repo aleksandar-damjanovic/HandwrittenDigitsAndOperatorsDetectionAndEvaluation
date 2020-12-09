@@ -12,7 +12,7 @@ for root, dirs, files in os.walk(mypath):
         os.remove(os.path.join(root, file))
 
 #image path
-img_path = ''
+img_path = ''               #enter image path here
 img = cv2.imread(img_path)
 print(img.shape)
 resized_image = cv2.resize(img, (600, 300))
