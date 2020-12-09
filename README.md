@@ -1,6 +1,6 @@
 Photomath test project
 
-This is a test project for Photomath.
+This is the test project for Photomath.
 There are 5 files (main, detecting objects from an image, preparing the image, training network 2, and testing model 2.
 In main.py you can add a picture to the path, and the program will detect numbers on that picture and recognize the digits. Also, there is a code for parsing and solving expressions.
 However, the mnist database does not have models for operators +,-,*,/ and brackets, so there is a test expression you can use. You need to test the model just once, then load saved.
